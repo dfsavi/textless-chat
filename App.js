@@ -1,15 +1,8 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
-import React, {FC} from 'react';
+import React from 'react';
 import {StatusBar} from 'react-native';
 import ChatScreen from './src/screens/ChatScreen';
 
-const App: FC = () => {
+const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
